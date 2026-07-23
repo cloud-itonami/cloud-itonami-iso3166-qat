@@ -29,5 +29,12 @@
  real audit ledger (`store/append-ledger!`). Store has a `MemStore`
  and a `DatomicStore` (via `kotoba-lang/langchain-store`, no
  hand-rolled EDN-blob codec), proven equivalent by a shared
- store-contract test. 29 tests / 96 assertions green, clj-kondo 0
- errors."}
+ store-contract test. `statute.facts` additionally carries 4 Qatar
+ laws (Commercial Companies Law No. 11/2015, Labour Law No. 14/2004,
+ Law on Protecting Personal Data Privacy No. 13/2016, Regulation of
+ Tenders and Auctions Law No. 24/2015) confirmed this session directly
+ against almeezan.qa (Qatar's official Ministry of Justice legislation
+ portal, no bot-detection obstruction encountered) -- the Tenders and
+ Auctions Law entry extends this blueprint's own pre-existing
+ `marketentry.facts` citation for the same law with its official
+ number/date. 33 tests / 110 assertions green, clj-kondo 0 errors."}

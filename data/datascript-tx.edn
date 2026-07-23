@@ -1,0 +1,43 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700). Same shape as sibling files.
+
+[#:statute{:id "qat.law-11-2015-commercial-companies-law"
+           :title "Commercial Companies Law"
+           :jurisdiction "QAT"
+           :kind :law
+           :law-number "Law No. (11) of 2015, as amended by Law No. (8) of 2021"
+           :url "https://almeezan.qa/LawPage.aspx?id=6656&language=ar"
+           :url-provenance :almeezan-qa-official-legislation-portal
+           :enacted-date "2015-07-07"
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "qat.law-14-2004-labour-law"
+           :title "Labour Law"
+           :jurisdiction "QAT"
+           :kind :law
+           :law-number "Law No. (14) of 2004, as amended by Law No. (3) of 2014"
+           :url "https://almeezan.qa/LawPage.aspx?id=3961&language=en"
+           :url-provenance :almeezan-qa-official-legislation-portal
+           :enacted-date "2004-07-06"
+           :retrieved-at "2026-07-23"
+           :topic [:labor]}
+ #:statute{:id "qat.law-13-2016-personal-data-privacy-protection-law"
+           :title "Law on Protecting Personal Data Privacy"
+           :jurisdiction "QAT"
+           :kind :law
+           :law-number "Law No. (13) of 2016"
+           :url "https://almeezan.qa/EnglishLaws//132016.pdf"
+           :url-provenance :almeezan-qa-official-legislation-portal
+           :enacted-date "2016-12-29"
+           :retrieved-at "2026-07-23"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "qat.law-24-2015-tenders-and-auctions-law"
+           :title "Regulation of Tenders and Auctions Law"
+           :jurisdiction "QAT"
+           :kind :law
+           :law-number "Law No. (24) of 2015, as amended by Decree-Law No. (18) of 2018 and Law No. (17) of 2024"
+           :url "https://almeezan.qa/EnglishLaws//242015.pdf"
+           :url-provenance :almeezan-qa-official-legislation-portal
+           :enacted-date "2015-12-13"
+           :retrieved-at "2026-07-23"
+           :topic [:public-procurement :market-entry]}]

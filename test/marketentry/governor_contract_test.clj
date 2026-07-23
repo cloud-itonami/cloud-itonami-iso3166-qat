@@ -69,7 +69,7 @@
       (is (some #{:evidence-incomplete} (-> (store/ledger db) first :basis))))))
 
 (deftest qa-entity-missing-is-held-and-unoverridable
-  (testing "missing Japan-resident authorized representative -> HARD hold (flagship check)"
+  (testing "missing Qatar-resident authorized representative -> HARD hold (flagship check)"
     (let [[db actor] (fresh)
           _ (assess! actor "t5pre" "eng-4")
           _ (draft! actor "t5pre" "eng-4")
