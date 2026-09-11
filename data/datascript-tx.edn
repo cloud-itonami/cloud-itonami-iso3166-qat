@@ -1,4 +1,4 @@
-;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljk
 ;; `statute.facts/catalog` (ADR-2607141700). Same shape as sibling files.
 
 [#:statute{:id "qat.law-11-2015-commercial-companies-law"
