@@ -21,11 +21,11 @@ clojure -M:dev:test
   (13) of 2016 -- widely reported as the first comprehensive
   data-protection law enacted in the GCC region (that superlative was
   not independently re-verified this session; see
-  `src/statute/facts.cljc` for the disclosed caveat).
+  `src/statute/facts.cljk` for the disclosed caveat).
 - Labor: Labour Law, Law No. (14) of 2004.
 
 Every citation above was fetched and read directly this session (see
-`src/marketentry/facts.cljc` and `src/statute/facts.cljc` docstrings
+`src/marketentry/facts.cljk` and `src/statute/facts.cljk` docstrings
 for exact URLs and verbatim confirmation). almeezan.qa presented no
 bot-detection challenge -- every fetch is a direct primary-source read,
 not a Wayback Machine fallback. The Tenders and Auctions Law entry in
@@ -34,7 +34,7 @@ pre-existing `marketentry.facts` citation for the same law. Gaps that
 could not be independently confirmed this session (a complete
 amendment history beyond the specific amending laws named, and the
 Personal Data Privacy Protection Law's "first in the GCC" claim) are
-disclosed in `src/statute/facts.cljc`, not filled in with an invented
+disclosed in `src/statute/facts.cljk`, not filled in with an invented
 figure.
 
 AGPL-3.0-or-later.
@@ -47,7 +47,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Qatar:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
